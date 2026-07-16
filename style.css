@@ -1,1 +1,65 @@
+body{
+    background:#E5E5E5;
+    
+}
+.navbar{
+    background-color: #14213D !important;
+}
+.navbar-brand{
+    color: #FFFF !important;
+}
+.nav{
+    color:#FCA311 !important;
+}
+.nav-link{
+    color:#FCA311 !important;
+}
+.nav-link:hover{
+    color:#FFFF !important;
+}
+:root{
+    --bs-body-font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial
+}
 
+header{
+    padding-top:4rem;padding-bottom:4rem
+}
+
+.hero{
+    min-height:60vh;display:flex;align-items:center
+}
+.tecnologias img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    
+}
+.img-tec:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+.botones1{
+    margin-top: 20px;
+    border: 3px solid #14213D;
+}
+.btn-primary{
+    background-color: #FCA311;
+    color: #14213D;
+    border-color: #14213D;
+}
+.btn-primary:hover{
+    background-color: #14213D;
+    color: #FCA311;
+    border-color: #14213D;
+}
+.portfolio-card{
+    transition:transform .2s
+}
+			
+.portfolio-card:hover{
+    transform:translateY(-6px)
+}
+
+footer{
+    padding:2rem 0;background:#f8f9fa
+}
