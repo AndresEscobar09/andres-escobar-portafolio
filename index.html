@@ -11,6 +11,32 @@
 
 <body>
 
+	<!-- Intro animada: foto + loader (se eliminan solos al terminar) -->
+	<div id="intro-backdrop" aria-hidden="true">
+		<img id="hero-photo-flying" src="/images/Gemini_Generated_Image_5onxi15onxi15onx.jpg" alt="">
+
+		<div id="loader" aria-hidden="true">
+			<div class="loader-icon" title="Código">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<polyline points="16 18 22 12 16 6"></polyline>
+					<polyline points="8 6 2 12 8 18"></polyline>
+				</svg>
+			</div>
+			<div class="loader-track">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
+			</div>
+			<div class="loader-icon" title="PC">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<rect x="2" y="4" width="20" height="14" rx="2"></rect>
+					<line x1="8" y1="21" x2="16" y2="21"></line>
+					<line x1="12" y1="18" x2="12" y2="21"></line>
+				</svg>
+			</div>
+		</div>
+	</div>
+
 	<!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
 		<div class="container">
@@ -52,7 +78,7 @@
 					</p>
 				</div>
 				<div class="col-lg-5 text-center d-none d-lg-block">
-					<img src="/images/Gemini_Generated_Image_5onxi15onxi15onx.jpg" alt="Foto"
+					<img id="foto-real" src="/images/Gemini_Generated_Image_5onxi15onxi15onx.jpg" alt="Foto"
 						class="rounded-circle img-fluid shadow-sm">
 				</div>
 			</div>
@@ -164,15 +190,18 @@
 						</ul>
 						<h5>Educación</h5>
 						<ul>
-							<li>Ingeniero en Electronica — Universidad ECCI</li>
-							<li>Bootcamp en Desarrollo Web full stack Java — Generation</li>
-							<li>Python Developer — Coursera</li>
+							<li>Ingeniero en Electronica — Universidad ECCI (2023)</li>
+                            <li>Python Developer — Coursera (2024)</li>
+                            <li>Frontend developer - Univeridad de los Andes (2025)</li>
+							<li>Bootcamp en Desarrollo Web full stack Java — Generation (2025) </li>
+							
 						</ul>
 					</div>
 					<div class="col-md-4">
 						<h5>Contacto</h5>
-						<p>Email: <a href="mailto:andres.esco@hotmail.com">andres.esco@hotmail.com</a></p>
-						<a class="btn btn-outline-primary"
+						<p>📧 <a href="mailto:andres.esco@hotmail.com">andres.esco@hotmail.com</a></p>
+                        <p>📞<a href="https://wa.me/573124678512?text=Hola%20Andres,%20vi%20tu%20portafolio%20y%20me%20gustaría%20que%20habláramos" target="_blank" rel="noopener noreferrer"> +57 3124678512</a></p>
+						<a class="btn btn-outline-primary" 
 							href="https://drive.google.com/file/d/1drNC-5WMGPlFhi8gVqk21gSzyFEk_M23/preview" target="_blank">
 							Ver CV (PDF)
 						</a>
@@ -189,9 +218,7 @@
 	</footer>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-	<script>
-		document.getElementById('year').textContent = new Date().getFullYear();
-	</script>
+	<script src="script.js"></script>
 </body>
 
 </html>
