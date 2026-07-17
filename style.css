@@ -1,5 +1,5 @@
 body{
-    background:#E5E5E5;
+    background:#b9b6b6 !important;
     
 }
 .navbar{
@@ -28,6 +28,7 @@ header{
 .hero{
     min-height:60vh;display:flex;align-items:center
 }
+
 .tecnologias img{
     width: 100px;
     height: 100px;
@@ -38,22 +39,26 @@ header{
     transform: scale(1.1);
     transition: transform 0.2s ease-in-out;
 }
+
 .botones1{
     margin-top: 20px;
     border: 3px solid #14213D;
 }
-.btn-primary{
-    background-color: #FCA311;
+.btn-primary , .btn-outline-primary{
+    background-color: #FCA311; 
     color: #14213D;
+    border: 3px solid #14213D;
     border-color: #14213D;
 }
-.btn-primary:hover{
+.btn-primary:hover, .btn-outline-primary:hover{
     background-color: #14213D;
     color: #FCA311;
     border-color: #14213D;
 }
 .portfolio-card{
+    border:3px solid #14213D;border-radius:10px;overflow:hidden;
     transition:transform .2s
+    
 }
 			
 .portfolio-card:hover{
