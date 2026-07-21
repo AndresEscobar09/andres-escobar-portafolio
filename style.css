@@ -71,6 +71,34 @@ header{
     background-color:#dae3fc !important;
 }
 
+.skill-card{
+    background: #ffffff;
+    border: 1px solid rgba(20, 33, 61, .08);
+}
+
+.skill-card h6{
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .02em;
+}
+
+.skill-meta{
+    font-size: .9rem;
+    color: #6c757d;
+    margin-bottom: .8rem;
+}
+
+.skill-progress{
+    height: 10px;
+    overflow: hidden;
+    background: rgba(20, 33, 61, .1);
+    border-radius: 999px;
+}
+
+.skill-progress .progress-bar{
+    min-height: 10px;
+}
+
 footer{
     padding:2rem 0;background:#f8f9fa
 

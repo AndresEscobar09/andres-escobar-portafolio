@@ -5,6 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portafolio - Andrés Escobar</title>
+	<link rel="preload" as="image" href="https://lh3.googleusercontent.com/d/1bC9qjz5QRhqWeqKeHNmbmsj5pLKUsr09">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -13,7 +14,7 @@
 
 	<!-- Intro animada: foto + loader (se eliminan solos al terminar) -->
 	<div id="intro-backdrop" aria-hidden="true">
-		<img id="hero-photo-flying" src="/images/Gemini_Generated_Image_5onxi15onxi15onx.jpg" alt="">
+		<img id="hero-photo-flying" src="https://lh3.googleusercontent.com/d/1bC9qjz5QRhqWeqKeHNmbmsj5pLKUsr09" alt="Foto real">
 
 		<div id="loader" aria-hidden="true">
 			<div class="loader-icon" title="Código">
@@ -65,21 +66,21 @@
 					<p class="lead">Desarrollador web Full Stack — creo aplicaciones limpias, accesibles, responsivas y
 						escalables.</p>
 					<div class="tecnologias">
-						<img class="img-tec" src="/images/java.png" alt="Java">
-						<img class="img-tec" src="/images/python.png" alt="Python">
-						<img class="img-tec" src="/images/sql.png" alt="SQL">
-						<img class="img-tec" src="/images/html.png" alt="HTML">
-						<img class="img-tec" src="/images/css.png" alt="CSS">
-						<img class="img-tec" src="/images/js.png" alt="JavaScript">
+						<img class="img-tec" src="https://lh3.googleusercontent.com/d/1-w13UhOfpuul1oLgFroPQImAZ_aiJnKw " alt="Java">
+						<img class="img-tec" src="https://lh3.googleusercontent.com/d/1YCEirOmKvzbWLlf6_-H-yWLk8JiTPNRb" alt="Python">
+						<img class="img-tec" src="https://lh3.googleusercontent.com/d/1yjNszyGsKvtxC5VI1Zh0mayw4ddxUBh7" alt="SQL">
+						<img class="img-tec" src="https://lh3.googleusercontent.com/d/13mTV87uL2-8_2kmohjpfQQ_oMoYTkXBD" alt="HTML">
+						<img class="img-tec" src="https://lh3.googleusercontent.com/d/1dlb_ulexZhBis3DoaiW9Hprf4fA3W5cP" alt="CSS">
+						<img class="img-tec" src="https://lh3.googleusercontent.com/d/1XYUEGioGCf74Fv5azI0gALoew-ADykGd" alt="JavaScript">
 					</div>
 					<p>
 						<a href="#portafolio" class="btn btn-primary me-2 botones1">Ver portafolio</a>
 						<a href="#acerca" class="btn btn-outline-secondary botones1">Sobre mí</a>
 					</p>
 				</div>
-				<div class="col-lg-5 text-center d-none d-lg-block">
-					<img id="foto-real" src="/images/Gemini_Generated_Image_5onxi15onxi15onx.jpg" alt="Foto"
-						class="rounded-circle img-fluid shadow-sm">
+			<div class="col-lg-5 text-center">
+				<img id="foto-real" src="https://lh3.googleusercontent.com/d/1bC9qjz5QRhqWeqKeHNmbmsj5pLKUsr09" alt="Foto"
+					class="rounded-circle img-fluid shadow-sm" loading="eager" fetchpriority="high">
 				</div>
 			</div>
 		</div>
@@ -93,6 +94,7 @@
 				<div class="row g-4">
 					<!-- Example project cards -->
 					<div class="col-sm-6 col-lg-3">
+						<a href="https://andresescobar09.github.io/mini-tienda-con-carrito-de-compras/" target="_blank">
 						<div class="card portfolio-card h-100">
 							<img src="https://lh3.googleusercontent.com/d/13JFkJciEfIGxLlEtgHdCa2cf0BCFuo0B"
 								class="card-img-top" alt="Proyecto 1">
@@ -102,8 +104,10 @@
 									utilizando HTML, CSS y JavaScript.</p>
 							</div>
 						</div>
+						</a>
 					</div>
 					<div class="col-sm-6 col-lg-3">
+						<a href="https://generationexpress.github.io/front-end/">
 						<div class="card portfolio-card h-100">
 							<img src="https://lh3.googleusercontent.com/d/1nS8XDUbd0HtJ9YUNr8o6aYk3yriUS3Tk"
 								class="card-img-top" alt="Proyecto 2">
@@ -112,9 +116,11 @@
 								<p class="card-text small">App web de gestion de envios implementando bootstrap,
 									springboot y MySQL.</p>
 							</div>
+							</a>
 						</div>
 					</div>
 					<div class="col-sm-6 col-lg-3">
+						<a href="https://andresescobar09.github.io/interaccion-componentes-html/" target="_blank">
 						<div class="card portfolio-card h-100">
 							<img src="https://lh3.googleusercontent.com/d/1RwORSe6ZNQt0DfYJ8WcfehKa63QSbFEG"
 								class="card-img-top" alt="Proyecto 3">
@@ -123,9 +129,11 @@
 								<p class="card-text small">Aplicación de lista de tareas con funcionalidades básicas de
 									seguimiento.</p>
 							</div>
-						</div>
+						</div> 
+						</a>
 					</div>
 					<div class="col-sm-6 col-lg-3">
+						<a href="https://andresescobar09.github.io/trendyShop/" target="_blank">
 						<div class="card portfolio-card h-100">
 							<img src="https://lh3.googleusercontent.com/d/1biDijgCB43CcHyXC1e3KnrXIQeYxYkn3"
 								class="card-img-top" alt="Proyecto 4">
@@ -135,6 +143,7 @@
 									sistema de pagos integrado.</p>
 							</div>
 						</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -160,16 +169,46 @@
 					</div>
 					<div class="col-md-6">
 						<h5>Habilidades</h5>
-						<div class="mb-2">Diseño responsivo <div class="progress" style="height:6px">
-								<div class="progress-bar" role="progressbar" style="width:90%"></div>
+					<div class="skills-grid row g-3">
+						<div class="col-12 col-sm-6">
+							<div class="skill-card p-4 rounded shadow-sm h-100">
+								<h6>Front-end</h6>
+								<p class="small text-muted mb-3">Construyo interfaces modernas, accesibles y responsive.</p>
+								<div class="skill-meta">HTML5 · CSS3 · Bootstrap · Responsive design</div>
+								<div class="progress skill-progress">
+									<div class="progress-bar bg-primary" role="progressbar" style="width: 92%"></div>
+								</div>
 							</div>
 						</div>
-						<div class="mb-2">JavaScript <div class="progress" style="height:6px">
-								<div class="progress-bar bg-success" role="progressbar" style="width:80%"></div>
+						<div class="col-12 col-sm-6">
+							<div class="skill-card p-4 rounded shadow-sm h-100">
+								<h6>JavaScript</h6>
+								<p class="small text-muted mb-3">Programación de experiencias dinámicas y consumo de APIs.</p>
+								<div class="skill-meta">ES6+ · DOM · fetch · APIs REST</div>
+								<div class="progress skill-progress">
+									<div class="progress-bar bg-success" role="progressbar" style="width: 88%"></div>
+								</div>
 							</div>
 						</div>
-						<div class="mb-2">Accesibilidad <div class="progress" style="height:6px">
-								<div class="progress-bar bg-info" role="progressbar" style="width:75%"></div>
+						<div class="col-12 col-sm-6">
+							<div class="skill-card p-4 rounded shadow-sm h-100">
+								<h6>Back-end</h6>
+								<p class="small text-muted mb-3">Desarrollo de servicios y gestión de datos.</p>
+								<div class="skill-meta">Java · Spring Boot · MySQL · APIs REST</div>
+								<div class="progress skill-progress">
+									<div class="progress-bar bg-info" role="progressbar" style="width: 85%"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6">
+							<div class="skill-card p-4 rounded shadow-sm h-100">
+								<h6>Accesibilidad</h6>
+								<p class="small text-muted mb-3">Diseño accesible con buenas prácticas y semántica.</p>
+								<div class="skill-meta">WCAG · ARIA · HTML semántico · teclado</div>
+								<div class="progress skill-progress">
+									<div class="progress-bar bg-warning" role="progressbar" style="width: 82%"></div>
+								</div>
+							</div>
 							</div>
 						</div>
 					</div>
@@ -185,8 +224,7 @@
 					<div class="col-md-8">
 						<h5>Experiencia</h5>
 						<ul>
-							<li><strong>Desarrollador Web</strong> — Empresa X (2021 - presente)</li>
-							<li><strong>Frontend Developer</strong> — Empresa Y (2019 - 2021)</li>
+							<li><strong>Python Developer</strong> — Freelance (2024 - 2026)</li>
 						</ul>
 						<h5>Educación</h5>
 						<ul>
